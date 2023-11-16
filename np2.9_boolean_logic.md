@@ -244,7 +244,7 @@ Try these examples (bonus: for each one try to come up with a DIFFERENT statemen
   | 1   | 1   | 1   | 0       | 1               |
     </details>
 
-7.  Create a truth table for the statement `(A NAND B) XOR NOT C` - note, with three inputs the table will need 8 rows!
+8.  Create a truth table for the statement `(A NAND B) XOR NOT C` - note, with three inputs the table will need 8 rows!
 
     <details markdown="1"><summary>Click to expand answer</summary>
 
