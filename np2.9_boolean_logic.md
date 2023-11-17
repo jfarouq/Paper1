@@ -13,8 +13,8 @@ For each of the following boolean statements, decide if it evaluates to true or 
 3. It is raining outside right now.
 4. It is not raining outside right now.
 5. Mr. Farouq is a teacher and Mr. Farouq is American.
-6. Mr. Farouq is a teacher or Mr. Farouq is a American.
-7. Either Mr. Farouq is a teacher or Mr. Farouq is a American.
+6. Mr. Farouq is a teacher or Mr. Farouq is an American.
+7. Either Mr. Farouq is a teacher or Mr. Farouq is an American.
 
 ## Boolean operators
 
