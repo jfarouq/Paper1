@@ -9,7 +9,7 @@ As we have seen in earlier notes, a **boolean statement** is a statement that ev
 For each of the following boolean statements, decide if it evaluates to true or false.
 
 1. 2 + 2 = 7
-2. \$$\sqrt{49} < 7$$   
+2. √49=7 
 3. It is raining outside right now.
 4. It is not raining outside right now.
 5. Mr. Farouq is a teacher and Mr. Farouq is American.
