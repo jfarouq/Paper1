@@ -30,7 +30,6 @@ You can represent the behavior of boolean operators with a *truth table* - the o
 | --- | ----- |
 | 0   | 1     |
 | 1   | 0     |
-{: .text-center}
 
 ### OR
 
