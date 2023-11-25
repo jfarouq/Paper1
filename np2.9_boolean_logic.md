@@ -43,7 +43,7 @@ For operators like OR that combine two statements, we need a larger truth table.
 | 0   | 0   | 0      |
 | 0   | 1   | 1      |
 | 1   | 0   | 1      |
-| 1   | 1   | F1     |
+| 1   | 1   | 1     |
 {: .text-center}
 
 ### AND
@@ -72,7 +72,7 @@ The XOR operator stands for *exclusive or* and it is used in situations we might
 
 ### NOR
 
-The NOR operator means "NOT OR" and returns the exact opposite of the NOR operator. It is only true if BOTH of the operands are FALSE. So "2 = 2 NOR 2 = 3" is false because one of the statements is true. There is no single NOR operator in java/Typescript, but you can build one combining `!` and `||` like `! (x < 0  || y < 0)`. (a little thinking will realize this is the same as saying `x >= 0 && y >= 0` , which is true - there are usually multiple ways to build complex logical expressions.)
+The NOR operator means "NOT OR" and returns the exact opposite of the OR operator. It is only true if BOTH of the operands are FALSE. So "2 = 2 NOR 2 = 3" is false because one of the statements is true. There is no single NOR operator in java/Typescript, but you can build one combining `!` and `||` like `! (x < 0  || y < 0)`. (a little thinking will realize this is the same as saying `x >= 0 && y >= 0` , which is true - there are usually multiple ways to build complex logical expressions.)
 
 
 | A   | B   | A NOR B |
