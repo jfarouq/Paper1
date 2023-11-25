@@ -43,7 +43,6 @@ For operators like OR that combine two statements, we need a larger truth table.
 | 0   | 1   | 1      |
 | 1   | 0   | 1      |
 | 1   | 1   | 1     |
-{: .text-center}
 
 ### AND
 
@@ -55,7 +54,6 @@ The AND operator combines two boolean statements and is only true if BOTH of the
 | 0   | 1   | 0       |
 | 1   | 0   | 0       |
 | 1   | 1   | 1       |
-{: .text-center}
 
 ### XOR
 
@@ -67,7 +65,6 @@ The XOR operator stands for *exclusive or* and it is used in situations we might
 | 0   | 1   | 1       |
 | 1   | 0   | 1       |
 | 1   | 1   | 0       |
-{: .text-center}
 
 ### NOR
 
@@ -80,7 +77,6 @@ The NOR operator means "NOT OR" and returns the exact opposite of the OR operato
 | 0   | 1   | 0       |
 | 1   | 0   | 0       |
 | 1   | 1   | 0       |
-{: .text-center}
 
 ### NAND
 
@@ -92,7 +88,6 @@ The NAND operator means "NOT AND" and returns the opposite of the AND operator. 
 | 0   | 1   | 1        |
 | 1   | 0   | 1        |
 | 1   | 1   | 0        |
-{: .text-center}
 
 ## Building Complex Truth Tables
 
@@ -110,7 +105,6 @@ The first two columns always go "0011" and "0101" to make all four combinations.
 | 0   | 1   |          |        |                        |
 | 1   | 0   |          |        |                        |
 | 1   | 1   |          |        |                        |
-{: .text-center}
 
 We then build from left to right, following the rules for each operator. NAND the opposite of AND so it is False only when both are True. OR is true whenever either is true.
 
@@ -120,7 +114,6 @@ We then build from left to right, following the rules for each operator. NAND th
 | 0   | 1   | 1        | 1      |                        |
 | 1   | 0   | 1        | 1      |                        |
 | 1   | 1   | 0        | 1      |                        |
-{: .text-center}
 
 Then for the final column, we are applying the OR operator to the two columns I just made! OR is true whenever either of the inputs are true, so the output is...
 
@@ -130,7 +123,6 @@ Then for the final column, we are applying the OR operator to the two columns I 
 | 0   | 1   | 1        | 1      | 1                      |
 | 1   | 0   | 1        | 1      | 1                      |
 | 1   | 1   | 0        | 1      | 1                      |
-{: .text-center}
 
 This statement is always true! Oops, that was a lot of work for a rather simple output!
 
